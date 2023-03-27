@@ -1,6 +1,4 @@
 langchain==0.0.101
-torch==1.12.1
-torchvision==0.13.1
 gradio==3.20.1
 accelerate
 addict
@@ -24,6 +22,12 @@ streamlit
 test-tube
 timm
 torchmetrics
-transformers
+# transformers
 webdataset
 yapf
+
+scikit-learn
+peft
+icetk
+cpm_kernels
+git+https://github.com/huggingface/transformers.git
